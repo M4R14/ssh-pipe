@@ -2,12 +2,12 @@ const SshPipe = require('./ssh-pipe.js');
 (async () => {
     const production = new SshPipe({
         connent: {
-            host: '128.199.241.190',
-            user: 'root',
-            pass: 'avoca826',
+            host: '__________',
+            user: '__________',
+            pass: '__________',
             agent: process.env.SSH_AUTH_SOCK,
             agentForward: true,
-            baseDir: '/home/admin/web/mahidol.bkksol.com/public_html'
+            baseDir: '___________'
         },
         env: { BRANCH: "master" }
     })
