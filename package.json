@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cli-spinner": "^0.2.6",
+    "colors": "^1.1.2",
+    "simple-ssh": "^1.0.0"
+  }
+}
